@@ -1,0 +1,73 @@
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgba(99, 76, 76, 0.5);;
+    gap: 10px;
+    padding: 10px;
+    }
+
+    .ibm-text {
+    margin-right: auto;
+    }
+
+    .first{
+        display: inline;
+        margin: 10px;
+    }
+    body {
+        background-image: url('assets/images/market1.jpg');
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        background-attachment: fixed;
+        backdrop-filter: contrast(50%);
+
+    }
+    input[type=text]{
+        -webkit-border-radius: 20px;
+        -moz-border-radius: 20px;
+        border-radius: 20px;
+        border: 1px solid #239fde;
+        color: #131a11;
+        width: 250px;
+        height: 30px;
+        padding-left: 10px;
+        font-style: italic;
+    }
+    input[type=date]{
+        -webkit-border-radius: 20px;
+        -moz-border-radius: 20px;
+        border-radius: 20px;
+        border: 1px solid #2d9fd9;
+        color: #5c605a;
+        width: 250px;
+        height: 30px;
+        padding-left: 10px;
+    }
+
+    select{
+        -webkit-border-radius: 20px;
+        -moz-border-radius: 20px;
+        border-radius: 20px;
+        border: 1px solid #2d9fd9;
+        color: #414042;
+        width: 250px;
+        height: 30px;
+        padding-left: 10px;
+    }
+
+    @keyframes rainbow {
+        0% { color: red; }
+        14% { color: orange; }
+        28% { color: yellow; }
+        42% { color: green; }
+        57% { color: blue; }
+        71% { color: indigo; }
+        85% { color: violet; }
+        100% { color: red; }
+    }
+    .rainbow-text {
+        animation: rainbow 0.6s infinite;
+        font-size: 24px;
+    }
